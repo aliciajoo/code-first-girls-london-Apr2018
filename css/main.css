@@ -1,0 +1,11 @@
+body {
+  font-family: 'Avenir-Medium', sans-serif;
+}
+.active {
+  color: #FA7C92;
+  background-color: #FFFFFF;
+}
+
+#mission-statement {
+  background-color: #FA7C92;
+}
