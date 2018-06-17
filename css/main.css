@@ -9,3 +9,13 @@ body {
 #mission-statement {
   background-color: #FA7C92;
 }
+
+footer {
+  background-color: #FFF7C0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
