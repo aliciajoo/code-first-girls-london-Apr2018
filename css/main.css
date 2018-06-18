@@ -46,3 +46,12 @@ img {
   background-color: #d0ece9;
     color:black;
 }
+
+.home-page-carousel {
+  background-color: #6EC4DB;
+  padding: 20 0 20 0;
+}
+
+#contact-form {
+  background-color: #FFF7C0;
+}
