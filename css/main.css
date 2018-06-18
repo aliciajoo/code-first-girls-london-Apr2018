@@ -1,21 +1,37 @@
 body {
   font-family: 'Avenir-Medium', sans-serif;
 }
-.active {
-  color: #FA7C92;
-  background-color: #FFFFFF;
-}
 
 #mission-statement {
   background-color: #FA7C92;
 }
 
-footer {
-
-}
 
 img {
   max-width: 100%;
   height: auto;
   display: block;
+}
+
+.navbar-brand{
+  color: #6EC4BD;
+  font-size: 26px;
+}
+
+.nav-pills > li.active > a, .nav-pills > li.active > a:focus {
+    color: black;
+    background-color: #fff7c0;
+}
+
+.nav-pills > li.active > a:hover {
+    background-color: #fff18d;
+    color:black;
+}
+.nav-pills > li > a, .nav-pills > li > a:focus {
+    color: black;
+}
+
+.nav-pills > li > a:hover {
+  background-color: #d0ece9;
+    color:black;
 }
