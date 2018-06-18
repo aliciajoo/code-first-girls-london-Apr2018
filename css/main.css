@@ -26,7 +26,7 @@ img {
 
 .navbar-brand{
   color: #6EC4BD;
-  font-size: 26px;
+  font-size: 40px;
 }
 
 .nav-pills > li.active > a, .nav-pills > li.active > a:focus {
@@ -54,4 +54,8 @@ img {
 
 #contact-form {
   background-color: #FFF7C0;
+}
+
+.carousel-caption {
+  color: black;
 }
