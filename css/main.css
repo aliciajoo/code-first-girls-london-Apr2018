@@ -16,6 +16,9 @@ body {
   background-color: #FA7C92;
 }
 
+.carousel-control {
+  vertical-align: middle;
+}
 
 img {
   max-width: 100%;
@@ -58,4 +61,14 @@ img {
 
 .carousel-caption {
   color: black;
+}
+
+.carousel-img {
+  max-height: 600px;
+  vertical-align: middle;
+}
+
+.carousel-inner>.item{
+  position: relative;
+
 }
