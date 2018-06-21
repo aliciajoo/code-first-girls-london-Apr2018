@@ -1,0 +1,74 @@
+/*!
+ * CSS for GRL PWR - let's all use the same style to make it all look better :)
+ *
+ * Color scheme:
+ * SALMON #FA7C92
+ * RAIN #6EC4DB
+ * BUTTERMILK #FFF7C0
+ * LEAF #66AB8C
+ */
+
+body {
+  font-family: 'Avenir-Medium', sans-serif;
+}
+
+#mission-statement {
+  background-color: #FA7C92;
+}
+
+.carousel-control {
+  vertical-align: middle;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: auto;
+}
+
+.navbar-brand{
+  color: #6EC4BD;
+  font-size: 40px;
+}
+
+.nav-pills > li.active > a, .nav-pills > li.active > a:focus {
+    color: black;
+    background-color: #fff7c0;
+}
+
+.nav-pills > li.active > a:hover {
+    background-color: #fff18d;
+    color:black;
+}
+.nav-pills > li > a, .nav-pills > li > a:focus {
+    color: black;
+}
+
+.nav-pills > li > a:hover {
+  background-color: #d0ece9;
+    color:black;
+}
+
+.home-page-carousel {
+  background-color: #6EC4DB;
+  padding: 20 0 20 0;
+}
+
+#contact-form {
+  background-color: #FFF7C0;
+}
+
+.carousel-caption {
+  color: black;
+}
+
+.carousel-img {
+  max-height: 600px;
+  vertical-align: middle;
+}
+
+.carousel-inner>.item{
+  position: relative;
+
+}

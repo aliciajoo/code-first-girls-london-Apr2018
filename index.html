@@ -8,63 +8,90 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>GRL PWR(working title!)</title>
+  <title>GRL PWR</title>
 
   <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
+  <script src="http://code.jquery.com/jquery.js"></script>
+  <script src="js/bootstrap.js"></script>
 
 </head>
 
 <body>
 
-  <div class="container">
+
       <div class="header clearfix">
-        <nav>
+        <div class="container">
+        <nav class="navbar">
+          <a class="navbar-brand text-uppercase"><strong>GRL PWR 👊🏻</strong></a>
           <ul class="nav nav-pills pull-right">
             <li role="presentation" class="active"><a href="#">Home</a></li>
-            <li role="presentation"><a href="mission.html">Who Are We</a></li>
-            <li role="presentation"><a href="#">Got A Question?</a></li>
-            <li role="presentation"><a href="#">Current Events</a></li>
-            <li role="presentation"><a href="#">Resources</a></li>
+            <li role="presentation"><a href="mission.html">Our Mission</a></li>
+            <li role="presentation"><a href="album.html">The Paygap in Detail</a></li>
+            <li role="presentation"><a href="#resources">Resources</a></li>
+            <li role="presentation"><a href="#contact-form">Got A Question?</a></li>
           </ul>
         </nav>
-        <h3 class="text-muted">GRL PWR 👊🏻 (Working Title!!)</h3>
       </div>
-
-      <div class="jumbotron">
-        <h1>Our Take on UK Gender Pay Gap (Insert Cool Graphs Here)</h1>
-              <p class="lead">Insert Summary here..</p>
-              <br>
-              <br>
-              <br>
-              <br>
-              <br>
-              <p><a class="btn btn-info btn-lg" href="#" role="button">Sign up today to join our awesome community :)</a></p>
-            </div>
-
-            <div class="row marketing">
-              <div class="col-lg-12">
-
-                <h4>Remind me what is Gender Pay Gap Again?</h4>
-                <p>insert description + add relevent current events links</p>
-                <br>
-                <br>
-
-                <h4>Can't get enough of us? We've got some more resources for you!</h4>
-                <p>insert resources links + descriptions here</p>
-                <br>
-                <br>
-
-                <h4>Yes sign me up I also want to be a girl boss</h4>
-                <form>
-                  <div class="form-group">
-                    <label for="exampleInputEmail1">Join our community</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
-                  <br>
-                  <br>
+    </div>
+<div class="container">
+<h2 class="text-uppercase"><strong>Our take on the gender pay gap</strong></h2>
+</div>
+    <div class="jumbotron home-page-carousel">
+          <div id="myCarousel" class="carousel slide">
+            <div class="carousel-inner" style="height: 600px">
+              <ol class="carousel-indicators" style="position: absolute">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+                <li data-target="#myCarousel" data-slide-to="3"></li>
+              </ol>
+              <div class="item active">
+                <img src="images/3.jpg" class="carousel-img">
+                <div class="container">
+                  <div class="carousel-caption">
+                    <p class="lead">Insert snappy comment on this graph</p>
+                    <a class="btn btn-info btn-lg" href="#contact-form" role="button">Sign up to Join Our Awesome Community of Girl Bosses</a>
                   </div>
+                </div>
+              </div>
+              <div class="item">
+                <img src="images/B.jpg" alt="" class="carousel-img">
+                <div class="container">
+                  <div class="carousel-caption">
+                    <p class="lead">Insert snappy comment on this graph</p>
+                    <a class="btn btn-info btn-lg" role="button"><a href="#contact-form">Sign up to Join Our Awesome Community of Girl Bosses</a>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <img src="images/C.jpg" alt="" class="carousel-img">
+                <div class="container">
+                  <div class="carousel-caption">
+                    <p class="lead">Insert snappy comment on this graph</p>
+                    <a class="btn btn-info btn-lg" href="#" role="button">Sign up to Join Our Awesome Community of Girl Bosses</a>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <img src="images/E.jpg" alt="" class="carousel-img">
+                <div class="container">
+                  <div class="carousel-caption">
+                    <p class="lead">Insert snappy comment on this graph</p>
+                    <a class="btn btn-info btn-lg" href="#" role="button">Sign up to Join Our Awesome Community of Girl Bosses</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev"></a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next"></a>
+          </div>
+    </div>
 
-                <h4>I still have some questions</h4>
                 <form id="contact-form" method="post" action="contact.php" role="form">
+                  <div class="container">
+                  <h2 class="text-uppercase"><strong>Join our community or have a question?</strong></h2>
+                  <h3 class="text-uppercase">Leave us your details below:</h3>
                   <div class="messages"></div>
                   <div class="controls">
                   <div class="row">
@@ -123,12 +150,35 @@
                     </div>
                   </div>
                   </div>
+                </div>
 
                 </form>
 
               </div>
             </div>
           </div>
+
+            <footer class="text-muted">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-6">
+                <p class="float-right">
+                  <a href="#">Back to top</a>
+                </p>
+              </div>
+              <div class="col-md-6 text-right">
+                <p >
+                  Hit us up @GRL-PWR on
+                  <a href="">Facebook</a> |
+                  <a href="">Twitter</a> |
+                  <a href="">LinkedIn</a>
+                </p>
+              </div>
+              </div>
+                </div>
+            </footer>
+
+
 
 </body>
 
