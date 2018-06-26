@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>GRL PWR</title>
+
+    <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='bootstrap.min.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='css/stylenews.css')}}">
+
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <script src="js/bootstrap.js"></script>
+
+</head>
+
+<body>
+
+    <div class="header clearfix">
+      <div class="container">
+      <nav class="navbar">
+              <a class="navbar-brand text-uppercase"><strong>GRL PWR 👊🏻</strong></a>
+        <ul class="nav nav-pills pull-right">
+          <li role="presentation"><a href="index.html">Home</a></li>
+          <li role="presentation"><a href="mission.html">Our Mission</a></li>
+          <li role="presentation"><a href="album.html">The Pay Gap in Detail</a></li>
+          <li role="presentation"class="active"><a href="Resources.html">Resources</a></li>
+          <li role="presentation"><a href="index.html#contact-form">Got A Question?</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+
+    <div id="Resources" class="center-text">
+      <div class="container">
+        <div class="row">
+
+        <h2 class="text-uppercase"><strong>News on Pay Gap </strong></h2>
+        <p>To get you excited about leveraging your career. Here you can find the most recent news related pay gap and how females unites in order to succeed. We strongly encourage you to become a part of this community and to join the events which excites you the most!</p>
+
+
+        </div>
+     </div>
+    </div>
+
+    <br>
+    <br>
+
+    <div id="news" class="center-text">
+      <div class="container">
+
+
+        <div class="row">
+
+            {% for item in news %}
+
+            <div class="col-sm-6">
+
+                <p>{{item}}</p>
+
+
+                <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+
+
+            </div>
+
+            {% endfor %}
+
+        </div>
+
+      </div>
+    </div>
+
+
+  <footer class="text-muted">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+        <p class="float-right">
+          <a href="#">Back to top</a>
+        </p>
+      </div>
+      <div class="col-md-6 text-right">
+        <p >
+          Hit us up @GRL-PWR on
+          <a href="">Facebook</a> |
+          <a href="">Twitter</a> |
+          <a href="">LinkedIn</a>
+        </p>
+      </div>
+      </div>
+        </div>
+    </footer>
+
+</body>
+</html>
